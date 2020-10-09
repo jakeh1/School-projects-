@@ -1,7 +1,8 @@
 class Example{
     public static void main(String args[]){
-        System.out.println("hello world!");
-        System.out.println("Good bye world");
-        
+        for(int i = 0; i < 10; i++){
+            System.out.println("hello world!");
+            System.out.println("Good bye world");
+        }   
     }
 }
